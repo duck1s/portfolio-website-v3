@@ -1,3 +1,33 @@
 @import "../abstracts/variables";
 @import "../abstracts/functions";
 @import "../abstracts/mixins";
+
+.contact {
+	&__img {
+		position: relative;
+		width: 7.5rem;
+		height: 7.5rem;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 3.2rem;
+	}
+
+	&__listitem {
+		@include shadow;
+		@include widget;
+		padding: 1.6rem;
+		display: flex;
+		align-items: center;
+		gap: 3.2rem;
+		width: 25rem;
+		transition: all 0.2s ease-in-out;
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.05);
+		}
+	}
+}

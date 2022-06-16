@@ -9,13 +9,8 @@ const Contact: NextPage = () => {
 	return (
 		<>
 			<section className={styles.contact}>
-				<section className={styles.contactleft}>
-					<h2 className={styles.contactleft__heading}>Contact</h2>
-					<ContactList />
-				</section>
-				<aside className={styles.contactright}>
-					<Image className={styles.contactright__img} src={"/assets/undraw-contact.svg"} width={600} height={500} />
-				</aside>
+				<h2 className={styles.contactleft__heading}>Contact</h2>
+				<ContactList />
 			</section>
 		</>
 	)

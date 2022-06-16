@@ -1,3 +1,40 @@
 @import "../abstracts/variables";
 @import "../abstracts/functions";
 @import "../abstracts/mixins";
+
+.services {
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 3.2rem;
+		justify-content: space-between;
+	}
+
+	&__listitem {
+		@include widget;
+		width: calc((100% - 6.4rem) / 3);
+		display: block;
+	}
+
+	&__content {
+		padding: 3.2rem;
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+
+	&__img {
+		position: relative;
+		height: $widget-imgheight;
+		width: 100%;
+		@include widget-top-radius;
+		overflow: hidden;
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		gap: 1.6rem;
+		height: 100%;
+	}
+}

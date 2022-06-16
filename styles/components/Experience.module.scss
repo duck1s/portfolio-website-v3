@@ -20,7 +20,7 @@
 
 	&__img {
 		position: relative;
-		height: 12rem;
+		height: $widget-imgheight;
 		width: 100%;
 		@include widget-top-radius;
 		overflow: hidden;

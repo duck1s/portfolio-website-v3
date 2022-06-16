@@ -17,8 +17,8 @@ export default function ContactList() {
 
 		return (
 			<li onClick={() => window.open(`${contact[0].link}`, "_ blank")} key={contact[0].id} className={styles.contact__listitem}>
-				<div className={styles.contact__imagecontainer}>
-					<Image className={styles.contact__img} src={contact[0].img} layout="fill" objectFit="contain"></Image>
+				<div className={styles.contact__img}>
+					<Image src={contact[0].img} layout="fill" objectFit="contain"></Image>
 				</div>
 				<p>{contact[0].name}</p>
 			</li>

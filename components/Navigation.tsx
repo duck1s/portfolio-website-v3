@@ -36,7 +36,7 @@ export default function Navigation() {
 					</li>
 					<li className={styles.navigationbar__listitem}>
 						<Link href="/contact">
-							<a className={router.pathname == "/contact" ? styles["navigationbar__activelink"] : styles["navigationbar__link"]}>Contact</a>
+							<a className={router.pathname == "/contact" ? styles["navigationbar__link--active"] : styles["navigationbar__link"]}>Contact</a>
 						</Link>
 					</li>
 				</ul>
