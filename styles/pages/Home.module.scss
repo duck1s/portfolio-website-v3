@@ -10,9 +10,6 @@
 	justify-content: center;
 	gap: 1.6rem;
 
-	&__heading {
-	}
-
 	&__text {
 		display: flex;
 		flex-direction: column;
@@ -23,12 +20,35 @@
 		display: flex;
 		gap: 6rem;
 		padding-top: 1.6rem;
-
-		&item {
-		}
 	}
 
 	&__link {
 		color: $blue;
+	}
+}
+
+@media screen and (max-width: 73.6rem) {
+	.home {
+		justify-content: center;
+		align-items: center;
+
+		&__list {
+			flex-direction: column;
+			gap: 1.6rem;
+			align-items: center;
+		}
+
+		&__text {
+			text-align: center;
+		}
+
+		&__heading {
+			text-align: center;
+		}
+
+		&__link {
+			text-align: center;
+			align-items: center;
+		}
 	}
 }

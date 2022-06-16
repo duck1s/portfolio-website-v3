@@ -8,3 +8,9 @@
 	flex-direction: column;
 	gap: 3.2rem;
 }
+
+@media screen and (max-width: 73.6rem) {
+	.projects {
+		text-align: center;
+	}
+}

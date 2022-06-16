@@ -53,3 +53,13 @@ button {
 li {
 	list-style: none;
 }
+
+@media screen and (max-width: 73.6rem) {
+	h1 {
+		font-size: 3.2rem;
+	}
+
+	h2 {
+		font-size: 2.4rem;
+	}
+}

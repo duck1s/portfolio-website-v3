@@ -26,6 +26,9 @@
 
 @mixin main-height {
 	min-height: calc(100vh - #{$navigationbar-height});
+	@media screen and (max-width: 73.6rem) {
+		min-height: 70vh;
+	}
 }
 
 @mixin shadow {
