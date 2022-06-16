@@ -9,7 +9,7 @@ const Home: NextPage = () => {
 			<section className={styles.home}>
 				<h1 className={styles.homeleft__heading}>Joeri Breedveld</h1>
 				<div className={styles.home__text}>
-					<p>Hello, I'm a full stack JavaScript web developer based in Amsterdam, Netherlands.</p>
+					<p>Hello, I&rsquo;m a full stack JavaScript web developer based in Amsterdam, Netherlands.</p>
 					<p>Currently studying software development at Mediacollege Amsterdam.</p>
 				</div>
 				<ul className={styles.home__list}>
