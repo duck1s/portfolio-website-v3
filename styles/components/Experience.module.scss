@@ -37,3 +37,15 @@
 		color: $gray;
 	}
 }
+
+@media screen and (max-width: 73.6rem) {
+	.experience {
+		&__list {
+			flex-direction: column;
+		}
+
+		&__listitem {
+			width: 100%;
+		}
+	}
+}

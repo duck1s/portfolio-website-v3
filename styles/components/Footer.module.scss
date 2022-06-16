@@ -44,3 +44,17 @@
 		font-size: 1.28rem;
 	}
 }
+
+@media screen and (max-width: 73.6rem) {
+	.footertop {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.footerbottom {
+		text-align: center;
+		justify-content: center;
+	}
+}

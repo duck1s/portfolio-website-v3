@@ -3,7 +3,7 @@
 @import "../abstracts/mixins";
 
 .navigationbar {
-	height: $navigationbar-height;
+	min-height: $navigationbar-height;
 	@include flex-center;
 
 	&__heading {
@@ -17,9 +17,6 @@
 		justify-content: space-between;
 		align-items: center;
 		gap: 7rem;
-
-		&item {
-		}
 	}
 
 	&__link {
@@ -32,6 +29,28 @@
 			&:hover {
 				cursor: default;
 			}
+		}
+	}
+}
+
+@media screen and (max-width: 73.6rem) {
+	.navigationbar {
+		flex-direction: column;
+		padding: 3.2rem;
+
+		&__heading {
+			text-align: center;
+			padding-bottom: 3.2rem;
+		}
+
+		&__list {
+			flex-direction: column;
+			gap: 1.6rem;
+			text-align: center;
+		}
+
+		&__listitem {
+			width: 100%;
 		}
 	}
 }

@@ -45,3 +45,15 @@
 		color: $blue;
 	}
 }
+
+@media screen and (max-width: 73.6rem) {
+	.projects {
+		&__list {
+			flex-direction: column;
+		}
+
+		&__listitem {
+			width: 100%;
+		}
+	}
+}
