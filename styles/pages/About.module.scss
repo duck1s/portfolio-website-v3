@@ -1,3 +1,22 @@
 @import "../abstracts/variables";
 @import "../abstracts/functions";
 @import "../abstracts/mixins";
+
+.about {
+	@include page-padding-y;
+	display: flex;
+	gap: 6.4rem;
+	flex-direction: column;
+}
+
+.introduction {
+	display: flex;
+	flex-direction: column;
+	gap: 3.2rem;
+
+	&__widget {
+		@include widget;
+		padding: $widget-padding;
+		width: 50%;
+	}
+}

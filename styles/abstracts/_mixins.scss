@@ -17,3 +17,17 @@
 @mixin main-height {
 	min-height: calc(100vh - #{$navigationbar-height});
 }
+
+@mixin shadow {
+	box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+}
+
+@mixin widget {
+	@include shadow;
+	border-radius: $widget-radius;
+}
+
+@mixin widget-top-radius {
+	border-top-left-radius: $widget-radius;
+	border-top-right-radius: $widget-radius;
+}
