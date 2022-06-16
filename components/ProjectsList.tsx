@@ -18,7 +18,7 @@ export default function ProjectsList() {
 		return (
 			<li key={project[0].id} className={styles.projects__listitem}>
 				<div className={styles.projects__img}>
-					<Image src={project[0].img} layout="fill" objectFit="cover"></Image>
+					<Image alt="Project" src={project[0].img} layout="fill" objectFit="cover"></Image>
 				</div>
 				<div className={styles.projects__content}>
 					<div className={styles.projects__text}>

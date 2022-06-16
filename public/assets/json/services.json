@@ -3,7 +3,7 @@
 		{
 			"id": "1",
 			"name": "Web Development",
-			"img": "/assets/services/development.png",
+			"img": "/assets/services/development.jpg",
 			"description": "You can hire me to build a website. Make sure I have the skills you require for your website. See about for my skills."
 		}
 	],
@@ -11,7 +11,7 @@
 		{
 			"id": "2",
 			"name": "Web Design",
-			"img": "/assets/services/design.jpeg",
+			"img": "/assets/services/design.jpg",
 			"description": "You can hire me to design a website using Adobe XD."
 		}
 	],
@@ -19,7 +19,7 @@
 		{
 			"id": "3",
 			"name": "Web Maintenance",
-			"img": "/assets/services/maintenance.jpeg",
+			"img": "/assets/services/maintenance.jpg",
 			"description": "You can hire me to maintain websites. Make sure the website is built with languages and libraries I know. See about for my skills."
 		}
 	]

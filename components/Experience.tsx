@@ -11,7 +11,7 @@ export default function Experience() {
 		return (
 			<li key={job[0].id} className={styles.experience__listitem}>
 				<div className={styles.experience__img}>
-					<Image src={job[0].img} layout="fill" objectFit="cover"></Image>
+					<Image alt="Experience" src={job[0].img} layout="fill" objectFit="cover"></Image>
 				</div>
 				<div className={styles.experience__text}>
 					<h4>{job[0].name}</h4>

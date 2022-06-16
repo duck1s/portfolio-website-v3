@@ -3,7 +3,7 @@
 		{
 			"id": "1",
 			"name": "LinkedIn",
-			"img": "/assets/contact/linkedin.png",
+			"img": "/assets/contact/linkedin.jpg",
 			"link": "https://www.linkedin.com/in/joeribreedveld/"
 		}
 	],
@@ -11,7 +11,7 @@
 		{
 			"id": "2",
 			"name": "GitHub",
-			"img": "/assets/contact/github.png",
+			"img": "/assets/contact/github.jpg",
 			"link": "https://github.com/duck1s"
 		}
 	],
@@ -19,7 +19,7 @@
 		{
 			"id": "3",
 			"name": "Gmail",
-			"img": "/assets/contact/gmail.png",
+			"img": "/assets/contact/gmail.jpg",
 			"link": "mailto:joeri.breedveld123@gmail.com"
 		}
 	],
@@ -27,7 +27,7 @@
 		{
 			"id": "4",
 			"name": "Instagram",
-			"img": "/assets/contact/instagram.png",
+			"img": "/assets/contact/instagram.jpg",
 			"link": "https://www.instagram.com/joeri.bv/"
 		}
 	]

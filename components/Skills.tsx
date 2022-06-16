@@ -12,7 +12,7 @@ export default function Skills() {
 			<li key={skill[0].id} className={styles.skills__listitem}>
 				<div className={styles.skills__imagecontainer}>
 					<div className={styles.skills__img}>
-						<Image src={skill[0].img} layout="fill" objectFit="contain"></Image>
+						<Image alt="Skill" src={skill[0].img} layout="fill" objectFit="contain"></Image>
 					</div>
 				</div>
 				<p className={styles.skills__text}>{skill[0].name}</p>

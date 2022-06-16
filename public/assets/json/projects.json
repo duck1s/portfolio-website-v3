@@ -3,7 +3,7 @@
 		{
 			"id": "1",
 			"name": "Portfolio Website V2",
-			"img": "/assets/projects/portfolio2.png",
+			"img": "/assets/projects/portfolio2.jpg",
 			"description": "The site you are looking at right now. Made with Next.js and Sass.",
 			"link": "https://github.com/duck1s/portfolio-website-v2"
 		}
@@ -12,7 +12,7 @@
 		{
 			"id": "2",
 			"name": "Portfolio Website V1",
-			"img": "/assets/projects/portfolio1.png",
+			"img": "/assets/projects/portfolio1.jpg",
 			"description": "My first portfolio website made with only HTML and CSS.",
 			"link": "https://github.com/duck1s/portfolio-website-v1"
 		}
@@ -21,7 +21,7 @@
 		{
 			"id": "3",
 			"name": "Task Manager API",
-			"img": "/assets/projects/taskmanager.png",
+			"img": "/assets/projects/taskmanager.jpg",
 			"description": "Small REST API project made with Node.js, Express.js and Mongoose.",
 			"link": "https://github.com/duck1s/task-manager-api"
 		}
@@ -30,7 +30,7 @@
 		{
 			"id": "4",
 			"name": "Museum Online",
-			"img": "/assets/projects/museumonline.jpeg",
+			"img": "/assets/projects/museumonline.jpg",
 			"description": "Museum website for school assignment. Made with HTML, CSS and Javascript.",
 			"link": "https://github.com/duck1s/f1m2-museum-online"
 		}
@@ -39,7 +39,7 @@
 		{
 			"id": "5",
 			"name": "Duurzaam Huis",
-			"img": "/assets/projects/duurzaamhuis.jpeg",
+			"img": "/assets/projects/duurzaamhuis.jpg",
 			"description": "Environment dashboard for school assignment. Made with HTML, CSS and JavaScript.",
 			"link": "https://github.com/duck1s/f2m3-duurzaam-huis"
 		}
@@ -48,7 +48,7 @@
 		{
 			"id": "6",
 			"name": "JavaScript Stopwatch",
-			"img": "/assets/projects/javascriptstopwatch.png",
+			"img": "/assets/projects/javascriptstopwatch.jpg",
 			"description": "Vanilla JavaScript stopwatch.",
 			"link": "https://github.com/duck1s/javascript-stopwatch"
 		}

@@ -15,7 +15,7 @@ export default function ServicesList() {
 		return (
 			<li key={service[0].id} className={styles.services__listitem}>
 				<div className={styles.services__img}>
-					<Image src={service[0].img} layout="fill" objectFit="cover"></Image>
+					<Image alt="Service" src={service[0].img} layout="fill" objectFit="cover"></Image>
 				</div>
 				<div className={styles.services__content}>
 					<div className={styles.services__text}>
