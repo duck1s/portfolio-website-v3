@@ -16,7 +16,7 @@ export default function Experience() {
 				<div className={styles.experience__text}>
 					<h4>{job[0].name}</h4>
 					<p>{job[0].description}</p>
-					<h4>{job[0].time}</h4>
+					<h4 className={styles.experience__time}>{job[0].time}</h4>
 				</div>
 			</li>
 		)

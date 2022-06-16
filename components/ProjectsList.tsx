@@ -17,16 +17,19 @@ export default function ProjectsList() {
 
 		return (
 			<li key={project[0].id} className={styles.projects__listitem}>
-				<div className={styles.projects__imagecontainer}>
-					<Image className={styles.projects__img} src={project[0].img} layout="fill" objectFit="cover"></Image>
+				<div className={styles.projects__img}>
+					<Image src={project[0].img} layout="fill" objectFit="cover"></Image>
 				</div>
-				<div className={styles.projects__textcontainer}>
-					<p className={styles.projects__heading}>{project[0].name}</p>
-					<p className={styles.projects__text}>{project[0].description}</p>
-				</div>
-				<div className={styles.projects__iconcontainer}>
-					<Image onClick={() => window.open(`${project[0].githublink}`, "_ blank")} className={styles.projects__icon} src={"/assets/icons/github.svg"} height={20} width={20}></Image>
-					<Image onClick={() => window.open(`${project[0].websitelink}`, "_ blank")} className={styles.projects__icon} src={"/assets/icons/link.svg"} height={20} width={20}></Image>
+				<div className={styles.projects__content}>
+					<div className={styles.projects__text}>
+						<h4>{project[0].name}</h4>
+						<p>{project[0].description}</p>
+						<div className={styles.projects__links}>
+							<a className={styles.projects__link} href={project[0].link} target="_blank" rel="noreferrer">
+								GitHub
+							</a>
+						</div>
+					</div>
 				</div>
 			</li>
 		)
