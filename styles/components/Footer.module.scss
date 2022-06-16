@@ -15,14 +15,32 @@
 	flex-direction: column;
 	gap: 1.6rem;
 
+	&__heading {
+		font-size: 1.28rem;
+	}
+
 	&__list {
 		display: flex;
 		flex-direction: column;
 		gap: 0.8rem;
+
+		&item {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&__link {
+		font-size: 1.28rem;
 	}
 }
 
 .footerbottom {
 	padding: 3.2rem 0;
 	border-top: 1px solid $gray;
+
+	&__text {
+		font-size: 1.28rem;
+	}
 }

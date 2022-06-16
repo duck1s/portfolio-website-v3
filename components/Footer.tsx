@@ -39,22 +39,22 @@ export default function Footer() {
 						<ul className={styles.navigation__list}>
 							<li className={styles.navigation__listitem}>
 								<Link href="/">
-									<a className={router.pathname == "/" ? styles["navigation__activelink"] : styles["navigation__link"]}>Home</a>
+									<a className={styles.navigation__link}>Home</a>
 								</Link>
 							</li>
 							<li className={styles.navigation__listitem}>
 								<Link href="/about">
-									<a className={router.pathname == "/about" ? styles["navigation__activelink"] : styles["navigation__link"]}>About</a>
+									<a className={styles.navigation__link}>About</a>
 								</Link>
 							</li>
 							<li className={styles.navigation__listitem}>
 								<Link href="/projects">
-									<a className={router.pathname == "/projects" ? styles["navigation__activelink"] : styles["navigation__link"]}>Projects</a>
+									<a className={styles.navigation__link}>Projects</a>
 								</Link>
 							</li>
 							<li className={styles.navigation__listitem}>
 								<Link href="/services">
-									<a className={router.pathname == "/services" ? styles["navigation__activelink"] : styles["navigation__link"]}>Services</a>
+									<a className={styles.navigation__link}>Services</a>
 								</Link>
 							</li>
 						</ul>
