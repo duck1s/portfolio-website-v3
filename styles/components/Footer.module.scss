@@ -1,0 +1,28 @@
+@import "../abstracts/variables";
+@import "../abstracts/functions";
+@import "../abstracts/mixins";
+
+.footertop {
+	display: flex;
+	gap: 6.4rem;
+	padding: 3.2rem 0;
+}
+
+.contact,
+.services,
+.navigation {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.8rem;
+	}
+}
+
+.footerbottom {
+	padding: 3.2rem 0;
+	border-top: 1px solid $gray;
+}

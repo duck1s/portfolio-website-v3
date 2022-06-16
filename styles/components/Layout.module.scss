@@ -1,0 +1,17 @@
+@import "../abstracts/variables";
+@import "../abstracts/functions";
+@import "../abstracts/mixins";
+
+.header {
+	@include page-padding-x;
+}
+
+.main {
+	@include main-height;
+	@include page-padding-x;
+}
+
+.footer {
+	@include page-padding-x;
+	background-color: $light-gray;
+}

@@ -1,0 +1,62 @@
+[
+	[
+		{
+			"id": "1",
+			"name": "Portfolio Website V2",
+			"img": "/assets/projects/portfolio2.png",
+			"description": "The site you are looking at right now. Made with Next.js and Sass.",
+			"githublink": "https://github.com/duck1s/portfolio-website-v2",
+			"websitelink": "https://joeribreedveld.com"
+		}
+	],
+	[
+		{
+			"id": "2",
+			"name": "Portfolio Website V1",
+			"img": "/assets/projects/portfolio1.png",
+			"description": "My first portfolio website made with only HTML and CSS.",
+			"githublink": "https://github.com/duck1s/portfolio-website-v1",
+			"websitelink": "https://joeribreedveld.com/"
+		}
+	],
+	[
+		{
+			"id": "3",
+			"name": "Task Manager API",
+			"img": "/assets/projects/taskmanager.png",
+			"description": "Small REST API project made with Node.js, Express.js and Mongoose.",
+			"githublink": "https://github.com/duck1s/task-manager-api",
+			"websitelink": "https://github.com/duck1s/task-manager-api"
+		}
+	],
+	[
+		{
+			"id": "4",
+			"name": "Museum Online",
+			"img": "/assets/projects/museumonline.jpeg",
+			"description": "Museum website for school assignment. Made with HTML, CSS and Javascript.",
+			"githublink": "https://github.com/duck1s/f1m2-museum-online",
+			"websitelink": "https://32653.hosts1.ma-cloud.nl/F1M2BO/"
+		}
+	],
+	[
+		{
+			"id": "5",
+			"name": "Duurzaam Huis",
+			"img": "/assets/projects/duurzaamhuis.jpeg",
+			"description": "Environment dashboard for school assignment. Made with HTML, CSS and JavaScript.",
+			"githublink": "https://github.com/duck1s/f2m3-duurzaam-huis",
+			"websitelink": "http://32653.hosts1.ma-cloud.nl/DUURZAAMHUIS/"
+		}
+	],
+	[
+		{
+			"id": "6",
+			"name": "JavaScript Stopwatch",
+			"img": "/assets/projects/javascriptstopwatch.png",
+			"description": "Vanilla JavaScript stopwatch.",
+			"githublink": "https://github.com/duck1s/javascript-stopwatch",
+			"websitelink": "https://duck1s.github.io/javascript-stopwatch/"
+		}
+	]
+]

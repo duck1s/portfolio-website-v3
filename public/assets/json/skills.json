@@ -1,0 +1,93 @@
+[
+	[
+		{
+			"id": "1",
+			"name": "HTML",
+			"img": "/assets/icons/html.png"
+		}
+	],
+	[
+		{
+			"id": "2",
+			"name": "CSS",
+			"img": "/assets/icons/css.png"
+		}
+	],
+	[
+		{
+			"id": "3",
+			"name": "JavaScript",
+			"img": "/assets/icons/javascript.png"
+		}
+	],
+	[
+		{
+			"id": "4",
+			"name": "React",
+			"img": "/assets/icons/react.png"
+		}
+	],
+	[
+		{
+			"id": "5",
+			"name": "Sass",
+			"img": "/assets/icons/sass.png"
+		}
+	],
+	[
+		{
+			"id": "6",
+			"name": "Laravel",
+			"img": "/assets/icons/laravel.png"
+		}
+	],
+	[
+		{
+			"id": "7",
+			"name": "Git",
+			"img": "/assets/icons/git.png"
+		}
+	],
+	[
+		{
+			"id": "8",
+			"name": "MERN",
+			"img": "/assets/icons/mern.png"
+		}
+	],
+	[
+		{
+			"id": "9",
+			"name": "Adobe XD",
+			"img": "/assets/icons/adobexd.png"
+		}
+	],
+	[
+		{
+			"id": "10",
+			"name": "VSCode",
+			"img": "/assets/icons/vscode.png"
+		}
+	],
+	[
+		{
+			"id": "11",
+			"name": "Node.js",
+			"img": "/assets/icons/node.png"
+		}
+	],
+	[
+		{
+			"id": "12",
+			"name": "Express.js",
+			"img": "/assets/icons/express.png"
+		}
+	],
+	[
+		{
+			"id": "13",
+			"name": "MongoDB",
+			"img": "/assets/icons/mongodb.png"
+		}
+	]
+]
