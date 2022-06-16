@@ -39,6 +39,10 @@
 
 .mobilenavigationbar {
 	display: none;
+
+	&--active {
+		display: none;
+	}
 }
 
 .navflex {
@@ -58,7 +62,7 @@
 
 	.navigationbar {
 		flex-direction: column;
-		padding: 1.6rem;
+		padding: 1.6rem 0;
 	}
 
 	.navflex {
@@ -70,9 +74,29 @@
 		&--active {
 			display: flex;
 			flex-direction: column;
+			width: 100%;
+			margin-top: 3.2rem;
 			gap: 1.6rem;
-			padding-top: 3.2rem;
+		}
+
+		&__listitem {
+			border-radius: 0.8rem;
 			text-align: center;
+			width: 40vw;
+			background-color: $light-gray;
+			padding: 1.6rem 3.2rem;
+
+			&:hover {
+				background: white;
+			}
+		}
+
+		&__link {
+			padding: 0.8rem;
+
+			&--active {
+				padding: 0.8rem;
+			}
 		}
 	}
 }
