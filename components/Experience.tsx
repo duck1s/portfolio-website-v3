@@ -3,7 +3,7 @@ import styles from "../styles/components/Experience.module.scss"
 import Image from "next/image"
 
 // Icons
-import experience from "../public/assets/json/Experience.json"
+import experience from "../public/assets/json/experience.json"
 
 // Page
 export default function Experience() {
