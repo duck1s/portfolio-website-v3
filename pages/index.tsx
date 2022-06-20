@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 				<ul className={styles.home__list}>
 					<li className={styles.home__listitem}>
 						<a className={styles.home__link} href="https://www.linkedin.com/in/joeribreedveld/" target="_blank" rel="noreferrer">
-							Linkedin
+							LinkedIn
 						</a>
 					</li>
 					<li className={styles.home__listitem}>
